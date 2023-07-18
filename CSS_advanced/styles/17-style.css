@@ -78,6 +78,9 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
+.section {
+    padding: var(--section-padding);
+}
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -87,10 +90,7 @@ a:active {
 }
 .section-header {
     text-align: var(--section-header-align);
-    padding: var(--section-header-padding)
-}
-.section {
-    padding: var(--section-padding);
+    padding: var(--section-header-padding);
 }
 .section-body {
     padding: var(--section-body-padding);
