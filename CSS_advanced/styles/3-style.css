@@ -12,7 +12,7 @@ html {
 body, a {
     color: var(---text-color);
 }
-.visual-hidden {
+.visually-hidden {
     display: none;
 }
 .card-category, .section-tagline {
